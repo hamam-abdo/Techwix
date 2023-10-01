@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="dist/output.css" />
+
+    <link rel="stylesheet" href="src/input.css" />
+    <title>Techwix</title>
+  </head>
+  <body>
+    <header class="relative h-20 w-full bg-white z-50">
+      <div class="container flex justify-between items-center font-bold h-20">
+        <div class="logo">
+          <img class="w-28 sm:w-auto" src="img/logo.png" alt="" />
+        </div>
+        <nav>
+          <ul class="flex">
+            <li>
+              <a class="actve" href="#">Home</a>
+              <ul>
+                <li><a href="">Home Main</a></li>
+                <li><a class="actve" href="">Al Solutions</a></li>
+                <li><a href=""> Cyber Security</a></li>
+                <li><a href="">IT Solutions</a></li>
+                <li><a href="">Software Company</a></li>
+                <li><a href="">IT Agency</a></li>
+              </ul>
+            </li>
+            <li><a href="">Aboute Us</a></li>
+            <li>
+              <a href="#">Pages</a>
+              <ul>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Why Choose Us</a></li>
+                <li><a href="">Tesimonial</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Login & Register</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"> Blog</a>
+              <ul>
+                <li><a href="">Blog Grid</a></li>
+                <li><a href="">Blog List</a></li>
+                <li><a href="">Blog Single</a></li>
+              </ul>
+            </li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="icon flex justify-between gap-5 sm:gap-10 items-center">
+          <ul class="flex items-center gap-3">
+            <a href=""> <i class="fab fa-facebook-f"></i> </a>
+            <a href=""> <i class="fab fa-twitter"></i></a>
+            <a href=""> <i class="fab fa-linkedin-in"></i></a>
+          </ul>
+          <ul class="flex items-center gap-5">
+            <i class="fa-solid fa-cart-shopping shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </ul>
+          <i class="fa-solid fa-bars text-xl sm:text-2xl bar"></i>
+        </div>
+      </div>
+    </header>
+    <div class="mobile">
+      <div class="head flex items-center justify-between">
+        <img class="w-32" src="img/logo-white.png" alt="" />
+        <i class="fa-solid fa-xmark fa-2x"></i>
+      </div>
+      <div class="link">
+        <ul class="py-10">
+          <li class="mp">
+            <a class="actve" href="#">Home</a>
+            <ul class="px-5">
+              <li><a href="">Home Main</a></li>
+              <li><a class="actve" href="">Al Solutions</a></li>
+              <li><a href=""> Cyber Security</a></li>
+              <li><a href="">IT Solutions</a></li>
+              <li><a href="">Software Company</a></li>
+              <li><a href="">IT Agency</a></li>
+            </ul>
+          </li>
+          <li><a href="">Aboute Us</a></li>
+          <li class="mp">
+            <a href="#">Pages</a>
+            <ul class="px-5">
+              <li><a href="">Our Team</a></li>
+              <li><a href="">Service</a></li>
+              <li><a href="">Why Choose Us</a></li>
+              <li><a href="">Tesimonial</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Login & Register</a></li>
+            </ul>
+          </li>
+          <li class="mp">
+            <a href="#"> Blog</a>
+            <ul class="px-5">
+              <li><a href="">Blog Grid</a></li>
+              <li><a href="">Blog List</a></li>
+              <li><a href="">Blog Single</a></li>
+            </ul>
+          </li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ovrflow"></div>
+    <div class="linding sm:px-16">
+      <div
+        class="contint flex items-center justify-between gap-32 flex-col lg:flex-row px-5 py-20 sm:py-32 sm:px-16 xl:px-32"
+      >
+        <div
+          class="text flex-1 text-white font-medium lg:max-w-xl 2xl:max-w-2xl"
+        >
+          <span>YOUR NETWORK BECOMES EASIER TO OPERATE BY AI</span>
+          <h1 class="text-5xl lg:text-4xl 2xl:text-7xl my-5 font-semibold">
+            Take the next steps for an <span>AI-driven</span> enterprise.
+          </h1>
+          <p class="text-xl my-10">
+            We provide the most responsive and functional IT
+          </p>
+          <a class="btn" href="#">Read More</a>
+        </div>
+        <div class="img flex-1">
+          <img src="img/hero-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="adout py-24">
+      <div class="container">
+        <div class="heding text-center">
+          <span>WHO WE ARE</span>
+          <h2
+            class="font-semibold text-2xl sm:text-5xl max-w-6xl mx-auto mt-5 mb-20 leading-10 sm:leading-tight"
+          >
+            An artificial intelligence company that excels in visual
+            recognition, solving real-world problems for businesses.
+          </h2>
+        </div>
+        <div
+          class="content flex justify-between gap-20 xl:gap-40 flex-col lg:flex-row"
+        >
+          <div class="img flex-1 text-center relative lg:text-right">
+            <img class="inline-block" src="img/about-big3.jpg" alt="" />
+            <img
+              class="absolute rounded-2xl left-0 xl:left-14 hidden sm:inline-block"
+              src="img/about-sm3.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text flex-1">
+            <h3 class="font-normal text-3xl leading-10">
+              Accelerate innovation with world-class tech teams We’ll match you
+              to an entire remote team of incredible freelance talent
+            </h3>
+            <p class="my-10 text-xl leading-10">
+              Accelerate innovation with world-class tech teams We’ll match you
+              to an entire remote team of incredible freelance talent for all
+              your software development needs.
+            </p>
+            <div class="box flex items-center gap-5">
+              <div class="img">
+                <img src="img/about-icon1.png" alt="" />
+              </div>
+              <div class="text">
+                <h2 class="font-semibold text-xl">Augmented Reality</h2>
+                <p>Accelerate innovation with world-class tech teams</p>
+              </div>
+            </div>
+            <div class="box flex items-center gap-5 mt-10">
+              <div class="img">
+                <img src="img/about-icon2.png" alt="" />
+              </div>
+              <div class="text">
+                <h2 class="font-semibold text-xl">Data Resolving</h2>
+                <p>Accelerate innovation with world-class tech teams</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service pb-40 relative">
+      <div
+        class="container rounded-2xl border-solid border-2 bg-white border-border py-24 px-10 sm:py-28 sm:px-24 relative z-10"
+      >
+        <div class="heding text-center">
+          <span>WHATS INCLUDED IN SERVICE</span>
+          <h2
+            class="font-semibold text-3xl sm:text-4xl md:text-5xl mx-auto mt-5 mb-20 md:leading-tight sm:max-w-lg"
+          >
+            Building everything you need for your business
+          </h2>
+        </div>
+        <div class="grid grid-cols-4 lg:grid-cols-4-2xl 2xl:grid-cols-4 gap-5">
+          <div class="box">
+            <div class="img">
+              <img src="img/ser-icon13.png" alt="" />
+            </div>
+            <div class="text">
+              <a
+                class="font-semibold text-2xl 2xl:pr-20 my-5 inline-block"
+                href=""
+                >AI base business solution</a
+              >
+              <p class="text-xl leading-10">
+                Accelerate innovation with world-class tech teams We’ll match
+                you to an entire remote team .
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="img/ser-icon14.png" alt="" />
+            </div>
+            <div class="text">
+              <a
+                class="font-semibold text-2xl 2xl:pr-20 my-5 inline-block"
+                href=""
+                >Chatbot with Real meeting</a
+              >
+              <p class="text-xl leading-10">
+                Accelerate innovation with world-class tech teams We’ll match
+                you to an entire remote team .
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="img/ser-icon15.png" alt="" />
+            </div>
+            <div class="text">
+              <a
+                class="font-semibold text-2xl 2xl:pr-20 my-5 inline-block"
+                href=""
+                >Automate data saving</a
+              >
+              <p class="text-xl leading-10">
+                Accelerate innovation with world-class tech teams We’ll match
+                you to an entire remote team .
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img">
+              <img src="img/ser-icon16.png" alt="" />
+            </div>
+            <div class="text">
+              <a
+                class="font-semibold text-2xl 2xl:pr-32 my-5 inline-block"
+                href=""
+                >Robotic Automation</a
+              >
+              <p class="text-xl leading-10">
+                Accelerate innovation with world-class tech teams We’ll match
+                you to an entire remote team .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="service-bar bg-service-bar bg-cover bg-center relative py-28">
+      <div
+        class="container grid grid-cols-4 xl:grid-cols-bar gap-8 relative z-10"
+      >
+        <div class="box text-center">
+          <h1 data-goal="354">0</h1>
+          <p>Completed Projects</p>
+        </div>
+        <div class="box text-center">
+          <h1 data-goal="119">0</h1>
+          <p>Robotic Automation</p>
+        </div>
+        <div class="box text-center">
+          <h1 data-goal="99">0</h1>
+          <p>Web Site Analyse</p>
+        </div>
+        <div class="box text-center">
+          <h1 data-goal="321">0</h1>
+          <p>Clients Supoort Done</p>
+        </div>
+      </div>
+    </div>
+    <div class="Solutions py-24">
+      <div class="container">
+        <div class="heding text-center">
+          <span>WE DELIVER EXCELLENCE</span>
+          <h2
+            class="font-semibold text-3xl sm:text-5xl mt-5 mb-20 md:leading-tight"
+          >
+            Solutions To Common AI Problems
+          </h2>
+        </div>
+        <div
+          class="Conetnt flex flex-col lg:flex-row gap-10 text-white font-medium"
+        >
+          <div class="con-1 w-full lg:w-3/5 relative rounded-md">
+            <div class="img">
+              <img class="w-full" src="img/solution-1.jpg" alt="" />
+            </div>
+            <div
+              class="box absolute flex items-center justify-between w-full px-5 sm:px-14 xl:px-28 bottom-14 sm:bottom-32 z-10 gap-2"
+            >
+              <div class="text flex-1">
+                <h4>Machine</h4>
+                <h2 class="text-xl sm:text-2xl font-semibold max-w-xs mt-2">
+                  Categorizing Airbnb Listing Photos Using Tensorflow
+                </h2>
+              </div>
+              <div
+                class="info bg-white w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center"
+              >
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="con-2 grid gap-8 w-full lg:w-2/5">
+            <div class="cont relative rounded-md">
+              <div class="img h-full">
+                <img class="w-full h-full" src="img/solution-img2.jpg" alt="" />
+              </div>
+              <div
+                class="box absolute flex items-center justify-between w-full px-8 2xl:px-20 bottom-8 sm:bottom-16 lg:bottom-5 xl:bottom-16 z-10"
+              >
+                <div class="text flex-1">
+                  <h4>Data Mining</h4>
+                  <h2
+                    class="text-xl sm:text-2xl lg:text-xl xl:text-2xl font-semibold max-w-xs mt-2"
+                  >
+                    Generative Adversarial Networks With Ml
+                  </h2>
+                </div>
+                <div
+                  class="info bg-white w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center"
+                >
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+            <div class="cont relative rounded-md">
+              <div class="img h-full">
+                <img class="w-full h-full" src="img/solution-img3.jpg" alt="" />
+              </div>
+              <div
+                class="box absolute flex items-center justify-between w-full px-8 2xl:px-20 bottom-8 sm:bottom-16 lg:bottom-5 xl:bottom-16 z-10"
+              >
+                <div class="text flex-1">
+                  <h4>Data Mining</h4>
+                  <h2
+                    class="text-xl sm:text-2xl lg:text-xl xl:text-2xl font-semibold max-w-xs mt-2"
+                  >
+                    Generative Adversarial Networks With Ml
+                  </h2>
+                </div>
+                <div
+                  class="info bg-white w-16 h-16 sm:w-20 sm:h-20 rounded-full flex items-center justify-center"
+                >
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testlmon bg-testlmon py-24">
+      <div class="container">
+        <div class="heding text-center">
+          <span>TESTIMONIAL</span>
+          <h2
+            class="font-semibold text-3xl sm:text-6xl mt-5 mb-20 md:leading-tight"
+          >
+            20k+ satisfied clients worldwide
+          </h2>
+        </div>
+        <div class="swiper test">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide relative flex items-center flex-col md:flex-row rounded-xl bg-white pt-10 md:bg-transparent md:pt-0"
+            >
+              <div
+                class="img relative left-0 md:left-10% lg:left-36 2xl:left-10%"
+              >
+                <img class="rounded-xl" src="img/testi-3.jpg" alt="" />
+              </div>
+              <div
+                class="text bg-white p-10 md:pl-32 flex-1 rounded-xl mx-0 lg:mx-20 2xl:mx-0 shadow-md text-center md:text-left"
+              >
+                <img class="mx-auto md:mx-0" src="img/testi-icon.png" alt="" />
+                <p class="text-xl my-5 leading-relaxed">
+                  Accelerate innovation with world-class tech teams Beyond more
+                  stoic this along goodness hey this this wow manatee
+                </p>
+                <h4>
+                  <span class="text-lg">Mike Holder</span> / CEO, Harlond inc
+                </h4>
+              </div>
+            </div>
+            <div
+              class="swiper-slide relative flex items-center flex-col md:flex-row rounded-xl bg-white pt-10 md:bg-transparent md:pt-0"
+            >
+              <div
+                class="img relative left-0 md:left-10% lg:left-36 2xl:left-10%"
+              >
+                <img class="rounded-xl" src="img/testi-4.jpg" alt="" />
+              </div>
+              <div
+                class="text bg-white p-10 md:pl-32 flex-1 rounded-xl mx-0 lg:mx-20 2xl:mx-0 shadow-md text-center md:text-left"
+              >
+                <img class="mx-auto md:mx-0" src="img/testi-icon.png" alt="" />
+                <p class="text-xl my-5 leading-relaxed">
+                  Accelerate innovation with world-class tech teams Beyond more
+                  stoic this along goodness hey this this wow manatee
+                </p>
+                <h4>
+                  <span class="text-lg">Mike Fermalin </span> / CEO, Harlond inc
+                </h4>
+              </div>
+            </div>
+            <div
+              class="swiper-slide relative flex items-center flex-col md:flex-row rounded-xl bg-white pt-10 md:bg-transparent md:pt-0"
+            >
+              <div
+                class="img relative left-0 md:left-10% lg:left-36 2xl:left-10%"
+              >
+                <img class="rounded-xl" src="img/testi-3.jpg" alt="" />
+              </div>
+              <div
+                class="text bg-white p-10 md:pl-32 flex-1 rounded-xl mx-0 lg:mx-20 2xl:mx-0 shadow-md text-center md:text-left"
+              >
+                <img class="mx-auto md:mx-0" src="img/testi-icon.png" alt="" />
+                <p class="text-xl my-5 leading-relaxed">
+                  Accelerate innovation with world-class tech teams Beyond more
+                  stoic this along goodness hey this this wow manatee
+                </p>
+                <h4>
+                  <span class="text-lg">Mike Holder</span> / CEO, Harlond inc
+                </h4>
+              </div>
+            </div>
+            <div
+              class="swiper-slide relative flex items-center flex-col md:flex-row rounded-xl bg-white pt-10 md:bg-transparent md:pt-0"
+            >
+              <div
+                class="img relative left-0 md:left-10% lg:left-36 2xl:left-10%"
+              >
+                <img class="rounded-xl" src="img/testi-4.jpg" alt="" />
+              </div>
+              <div
+                class="text bg-white p-10 md:pl-32 flex-1 rounded-xl mx-0 lg:mx-20 2xl:mx-0 shadow-md text-center md:text-left"
+              >
+                <img class="mx-auto md:mx-0" src="img/testi-icon.png" alt="" />
+                <p class="text-xl my-5 leading-relaxed">
+                  Accelerate innovation with world-class tech teams Beyond more
+                  stoic this along goodness hey this this wow manatee
+                </p>
+                <h4>
+                  <span class="text-lg">Mike Fermalin </span> / CEO, Harlond inc
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination mt-12 relative"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="brand py-32">
+      <div class="container">
+        <div class="swiper pr">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="mx-auto" src="img/brand-1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/brand-2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/brand-3.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/brand-4.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/brand-5.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/brand-1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/brand-2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/brand-3.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/brand-4.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="img/brand-5.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cat">
+      <div
+        class="container bg-cta bg-cover bg-center relative text-white py-24 md:px-28 flex justify-between items-center rounded-xl font-medium -mb-20 gap-10 lg:gap-0 flex-col lg:flex-row"
+      >
+        <div class="text flex-1">
+          <h2
+            class="text-4xl md:text-5xl lg:text-4xl xl:text-6xl relative pl-5 md:pl-8"
+          >
+            To make requests for further information, contact us
+          </h2>
+        </div>
+        <div class="call flex-1 text-center">
+          <img class="mx-auto" src="img/cta-icon2.png" alt="" />
+          <p class="my-3 text-xl">Call Us For Any inquiry</p>
+          <h2 class="text-4xl font-black">+44 920 090 505</h2>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-footer">
+      <div
+        class="container pb-20 pt-40 text-white grid sm:grid-cols-bar-s xl:grid-cols-bar gap-7 xl:gap-8"
+      >
+        <div class="f1">
+          <img class="mb-5" src="img/logo-white.png" alt="" />
+          <p class="text-base leading-8 ms:max-w-xs">
+            Accelerate innovation with world-class tech teams We’ll match you to
+            an entire remote team of incredible freelance talent.
+          </p>
+          <ul class="flex items-center gap-4 mt-5">
+            <a
+              class="bg-white w-9 h-9 rounded-full flex items-center justify-center"
+              href=""
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              class="bg-white w-9 h-9 rounded-full flex items-center justify-center"
+              href=""
+            >
+              <i class="fab fa-twitter"></i
+            ></a>
+            <a
+              class="bg-white w-9 h-9 rounded-full flex items-center justify-center"
+              href=""
+            >
+              <i class="fab fa-linkedin-in"></i
+            ></a>
+          </ul>
+        </div>
+        <div class="f2">
+          <h2 class="mb-5 text-xl font-medium">Useful Links</h2>
+          <ul>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">About Company</a></li>
+            <li><a href="">Payment Gatway</a></li>
+            <li><a href="">Policy</a></li>
+          </ul>
+        </div>
+        <div class="f3">
+          <h2 class="mb-5 text-xl font-medium">Our Services</h2>
+          <ul>
+            <li><a href="">Data Security</a></li>
+            <li><a href="">IT Managment</a></li>
+            <li><a href="">Outsourcing</a></li>
+            <li><a href="">Networking</a></li>
+          </ul>
+        </div>
+        <div class="f4">
+          <h2 class="mb-5 text-xl font-medium">Contact Information</h2>
+          <ul>
+            <li>
+              <i class="fa fa-phone-alt me-3"></i><a href="">+91 458 654 528</a>
+            </li>
+            <li>
+              <i class="fa fa-envelope me-3"></i>
+              <a href=""> info@example.com</a>
+            </li>
+            <li>
+              <i class="fa fa-map-marker-alt me-3"></i>
+              <a href="">60 East 65th Street, NY </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="Copyrights text-center py-8">
+        © Copyrights 2022 techwix All rights reserved.
+      </div>
+    </footer>
+
+    <div
+      class="progress w-12 h-12 rounded-full fixed cursor-pointer right-12 bottom-12 z-50"
+    >
+      <svg width="100%" height="100%  ">
+        <circle
+          cx="24"
+          cy="24"
+          r="22"
+          stroke="#086ad8"
+          stroke-width="2"
+          fill="transparent"
+          stroke-dasharray="138"
+          stroke-dashoffset="138"
+          style="transition: stroke-dashoffset 10ms linear 0s"
+        />
+      </svg>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/master.js"></script>
+  </body>
+</html>
